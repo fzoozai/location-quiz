@@ -52,7 +52,7 @@ function Continue () {
 
 function SuccessMessage() {
   return (
-    <div class="alert alert-success" role="alert">
+    <div className="alert alert-success" role="alert">
       Good Job! Your answer was lit.
     </div>
   )
@@ -60,7 +60,7 @@ function SuccessMessage() {
 
 function ErrorMessage() {
   return (
-    <div class="alert alert-danger" role="alert">
+    <div className="alert alert-danger" role="alert">
       Bruhhh...you can do this better.
     </div>
   )
@@ -68,7 +68,7 @@ function ErrorMessage() {
 
 function NonSelectionMessage() {
   return (
-    <div class="alert alert-light" role="alert">
+    <div className="alert alert-light" role="alert">
       Still waiting for your answer bro. Come on...
     </div>
   )
